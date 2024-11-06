@@ -22,3 +22,15 @@ def generate_prime_numbers_upto(n):
 
 n=int(input("enter a number to generate prime numbers upto it"))
 print(f"prime numbers upto {n}:{generate_prime_numbers_upto(n)}")
+
+#programme to generate the first n prime numbers
+def first_n_primes(n):
+  primes = []
+  num=2
+  while len(primes)<n:
+    if is_prime(num):
+      primes.append(num)
+    num+=1
+  return primes
+n=int(input("generate the first n prime numebrs"))
+print(f'the first{n} prime numbers are:{first_n_primes(n)}')
