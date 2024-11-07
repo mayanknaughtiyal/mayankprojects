@@ -15,8 +15,7 @@ print("roots of the quadratic equation are",root1,"and",root2)
 ## practical 2 - WAP to accept a number 'n' to compute the following:
 
 ### a. Check if 'n' is prime or not.
-#to write a progrrame to check if  number is prime,generate all prime numbers and generate first n prime numbers
-#to check if n is prime
+#to write a progrrame to check if  number is prime lets make a function 
 def is_prime(n):
   if n <=1:
    return False
