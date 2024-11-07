@@ -1,48 +1,22 @@
-# Python-code-
-
-## practical 1 - WAP to find the roots of a quadratic equation.
-
-
-
-![IMG-20241106-WA0005](https://github.com/user-attachments/assets/8112c4bc-faff-4f76-8d8e-383c53c203e0)
-
-![IMG-20241106-WA0004](https://github.com/user-attachments/assets/f4c204ea-cc13-4349-b7b5-3d59429c9c77)
+# first practical 
+#python programme to find roots of a quadratic eauation
+#d=b^2-4ac
+#x=(-b+-d^1/2)/2a
+import cmath
+a= float(input("enter the cofficient a"))
+b= float(input("enter the cofficient b"))
+c= float(input("enter THE COFFICIENT c"))
+d=b**2-4*a*c
+root1=(-b+cmath.sqrt(d))/2*a
+root2=(-b-cmath.sqrt(d))/2*a
+print("roots of the quadratic equation are",root1,"and",root2)
 
 
 ## practical 2 - WAP to accept a number 'n' to compute the following:
 
 ### a. Check if 'n' is prime or not.
-code= 
 
-n =eval(input("enter value ")) 
 
-if n>1:
-   
-   for i in range(2,n):
-   
-   if n % 10:
-   
-   print(n, "not a prime number") 
-  
-   break
-
-else:
-   
-   print(n, "prime number") 
-
-else: 
-   
-   print(n, "not a prime number ")
-
-Output = 
-
-enter value 1
-
-1 not a prime number 
-
-enter value 29 
-
-29 prime number
 
 ### b. Generate all prime numbers till 'n'
 
