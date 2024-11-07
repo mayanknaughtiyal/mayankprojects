@@ -15,30 +15,25 @@ print("roots of the quadratic equation are",root1,"and",root2)
 ## practical 2 - WAP to accept a number 'n' to compute the following:
 
 ### a. Check if 'n' is prime or not.
-
-
+#to write a progrrame to check if  number is prime,generate all prime numbers and generate first n prime numbers
+#to check if n is prime
+def is_prime(n):
+  if n <=1:
+   return False
+  for i in range(2,int(n**0.5)+1):
+    if n%i ==0:
+      return False  
+ return True      
+n=int(input("enter a number"))
+if is_prime(n):
+ print(f"{n} is prime")
+else:
+  print(f"{n} is not prime")
 
 ### b. Generate all prime numbers till 'n'
 
-Code =
-
-n= int(input("enter value")) 
-
-for num in range(1,n): 
-  
- if num > 1: 
-   
-  for i in range (2, num): 
-       
-   if num % i == 0: 
-      
-    break
-
- 
-  else: print(num, end=',')
 
 
-Output enter value 100 2,3,5,7,11,13,17,19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73,79,83,89,97,
 
 ![IMG-20241106-WA0007](https://github.com/user-attachments/assets/fa5f115c-003a-4b6a-a5e6-e5da76402c89)
 
