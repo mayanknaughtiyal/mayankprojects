@@ -30,7 +30,28 @@ else:
   print(f"{n} is not prime")
 
 ### b. Generate all prime numbers till 'n
+#now a programme to generate all prime numbers upto n
+def generate_prime_numbers_upto(n):
+ prime_no=[]
+ for i in range(2,n+1):
+     if is_prime(i):
+         prime_no.append(i)
+ return prime_no
 
+n=int(input("enter a number to generate prime numbers upto it"))
+print(f"prime numbers upto {n}:{generate_prime_numbers_upto(n)}")
+
+#programme to generate the first n prime numbers
+def first_n_primes(n):
+  primes = []
+  num=2
+  while len(primes)<n:
+    if is_prime(num):
+      primes.append(num)
+    num+=1
+  return primes
+n=int(input("generate the first n prime numebrs"))
+print(f'the first{n} prime numbers are:{first_n_primes(n)}')
 
 ### c. generate first 'n' prime numbers
 
@@ -48,64 +69,37 @@ while count < n:
       count+= 1
       number+= 1
 
-![Screenshot 2024-11-07 131319](https://github.com/user-attachments/assets/019f4a6a-8baf-4254-ae80-0cc8b9ba443f)
-
-
 ### d. calculate the summ of first 'n' natural numberws.
 
-n =eval(input("enter value ")) 
+n =int(input("enter value ")) 
 sum =0
 for i in range(1,n+1):
     sum += i
 print(sum)
 
 
-![Screenshot 2024-11-07 132054](https://github.com/user-attachments/assets/262fb515-ef5b-405d-bd72-167353996637)
-
-
-
-
 ## practical 3 - WAP to create a pyramid of the character '*' and a reverse pyramid.
 
+def Pyramid_maker(n):
+  # Pyramid
+ for i in range(1, n + 1):
+    # Print spaces
+    print(" " * (n - i), end="")
+    # Print stars
+    print("* " * i)
 
-
-def print_pyramid(n):
-   
-   for i in range(n):
-     
-     print(' ' * (n - i - 1), end='')
-     
-     print('*' * (2 * i + 1))
-
+# Reverse Pyramid
+def reverse_Pyramid(n1):
+ for i in range(n, 0, -1):
+    # Print spaces
+    print(" " * (n - i), end="")
+    # Print stars
+    print("* " * i)
 #Number of rows for the pyramid
-rows = 5
-
-print("Pyramid:")
-
-print_pyramid(rows)
-
-
-def print_reverse_pyramid(n):
-   
-   for i in range(n, 0, -1):
-    
-     print(' ' * (n - i), end='')
-    
-     print('*' * (2 * i - 1))
-
-#Number of rows for the reverse pyramid
-rows = 5
-
-print("\nReverse Pyramid:")
-
-print_reverse_pyramid(rows)
-
-![IMG-20241106-WA0009](https://github.com/user-attachments/assets/00f62032-1d63-4650-902e-1fa292b5f22f)
-
-![IMG-20241106-WA0008](https://github.com/user-attachments/assets/88de3a7a-4f38-4621-a542-bd7bed445a53)
-
-
-
+n=int(input("enter no of rows you want in pyramid")
+n1=int(input("enter no of rows for reverse Pyramid ")
+print("Pyramid:", Pyramid_maker(n))
+print('reverse pyramid ',reverse_Pyramid(n1))
 
 
 ## practical 4 - WAP that accepts a character and performances the following.
