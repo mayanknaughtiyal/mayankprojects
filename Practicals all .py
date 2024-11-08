@@ -29,14 +29,8 @@ if is_prime(n):
 else:
   print(f"{n} is not prime")
 
-### b. Generate all prime numbers till 'n'
+### b. Generate all prime numbers till 'n
 
-
-
-
-![IMG-20241106-WA0007](https://github.com/user-attachments/assets/fa5f115c-003a-4b6a-a5e6-e5da76402c89)
-
-![IMG-20241106-WA0006](https://github.com/user-attachments/assets/34b98eb9-3093-485d-b684-01582cbdeccd)
 
 ### c. generate first 'n' prime numbers
 
