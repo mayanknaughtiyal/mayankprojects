@@ -378,7 +378,6 @@ concatenation= (t1 ,t2)
 
 print("tuple with concatenation  ", concatenation )
 
-![Screenshot 2024-11-07 154606](https://github.com/user-attachments/assets/96394980-9de9-4dc6-8954-ecdb623c90f3)
 
  
 
@@ -390,7 +389,6 @@ print("maximum value in t1 is ", max(t1))
 
 print("minimum value in t1 is ", min(t1))
 
-![Screenshot 2024-11-07 154955](https://github.com/user-attachments/assets/5c9ba36f-bad3-4374-a3bc-d32ac27fe950)
 
 
 
@@ -400,22 +398,16 @@ name =input("enter a name ")
 
 try:
    
-    if name.isalpha():
+    if name.isalpha()!=%'e':
        
        print(" This is correct name ")
 
     else:
       
-       raise Exception(" There is name error ")
-
-except Exception as e:
-   
-    print(e)
+       print(" There is name error ")
 
 
-![Screenshot 2024-11-07 160028](https://github.com/user-attachments/assets/885f035d-3ac5-4d56-8518-6d2193b98f8a)
 
-![Screenshot 2024-11-07 160243](https://github.com/user-attachments/assets/a9864f28-1803-46bc-9098-31097e2e6b2f)
 
 
 ## practical 13.- WAP to read a file and
@@ -430,7 +422,7 @@ except Exception as e:
 
 def filehandling():
    
-   f=open( https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt,'r')
+   f=open( file link,'r')
    
    data =f.read()
    
@@ -450,7 +442,7 @@ filehandling()
 
 def freq():
 
-  f =open( https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt ,'r')
+  f =open( filelink ,'r')
 
   data =f.read()
 
@@ -471,7 +463,7 @@ freq()
 
 def reverse_words():
  
-  f =open("https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt")
+  f =open(r"file link")
 
   data1 =f.read()
   
@@ -485,9 +477,9 @@ reverse_words()
 
 def file1_and_file2():
 
-  f =open(r"https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file2.txt")
+  f =open(r"file link")
 
-  f3 =open(w"https://github.com/khushveerk/Python-code-/blob/main/khushveer%20file%203.txt")
+  f3 =open(r"file link")
 
   f4 =open(w"")
 
