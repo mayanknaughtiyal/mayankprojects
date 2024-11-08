@@ -135,11 +135,7 @@ else:
    print(charac, "is a Special Character")   
 
    
-![IMG-20241106-WA0011](https://github.com/user-attachments/assets/532abd9e-cfa7-4fd0-aa49-4ac96f3a142f)
 
-
-![IMG-20241106-WA0010](https://github.com/user-attachments/assets/af3bf10a-22b0-41d2-bb60-c8e6d3c881b9)
-    
    
 
 
@@ -164,7 +160,6 @@ else:
   print(str2.replace(n,m))
 
 
-![image](https://github.com/user-attachments/assets/48b4bf0b-3c93-458d-8906-9df8854dfe5d)
 
 
 
@@ -200,7 +195,6 @@ print(" string2 =", string2)
 
 
 
-![IMG_20241106_115748_028](https://github.com/user-attachments/assets/bac06745-7b54-4056-84ee-a461fb68ec19)
 
 
 
@@ -220,7 +214,6 @@ for i in string:
      f+=1
 print("frequency of" , character ,'is', f)     
 
-![Screenshot 2024-11-07 112630](https://github.com/user-attachments/assets/965af336-aee9-43b1-885f-93e89f10e10f)
 
 
 
@@ -231,7 +224,6 @@ string = "hello world to python"
 print(string.replace ("e","i"))
 
 
-![Screenshot 2024-11-07 113427](https://github.com/user-attachments/assets/5480e2ce-5bf2-48cf-98c9-c3da63472fec)
 
 
 
@@ -241,7 +233,7 @@ string = "hello world to python program"
 
 print(string[3:len(string)])
 
-![Screenshot 2024-11-07 114106](https://github.com/user-attachments/assets/64a834c4-7768-4cf8-93a3-5ab1705db93e)
+
 
 
 
@@ -251,13 +243,9 @@ string = "hello world to python tutorial"
 
 print(string[ :0])
 
-![Screenshot 2024-11-07 114402](https://github.com/user-attachments/assets/636c507d-7afc-4e33-ae1c-4fe52059df51)
-
 
 print(string[ :2])
 
-
-![Screenshot 2024-11-07 114538](https://github.com/user-attachments/assets/9df7d84a-bd5e-4c58-a7f0-028ada7db6bb)
 
 
 ## practical 8 - WAP  to create a list of only the even integers appearing in the list (may have elements of other types ) using for loop and list comprehension.
@@ -279,8 +267,6 @@ def cubes():
   print(newlist)
 
 cubes()
-
-![Screenshot 2024-11-07 132054](https://github.com/user-attachments/assets/262fb515-ef5b-405d-bd72-167353996637)
 
 ## practical 9 - Write a function that accepts two streings and returns the indices of all mthe occurancesa of the second string in the first string as a list . If the second string is not present in the first string then it should return -1 .
 
@@ -319,8 +305,6 @@ b=input("enter second string; ")
 occurances(a,b)
 
 
-![Screenshot 2024-11-07 150130](https://github.com/user-attachments/assets/b0a92e87-cc70-4513-859f-82c72f08e04f)
-
 
 ## practical 10 - Write a function that prints a dictionary where the keys are numbers between 1 and 5 and the values are the cubes of the keys .
 
@@ -336,8 +320,7 @@ def cubes():
 
 cubes()
 
-![Screenshot 2024-11-07 151910](https://github.com/user-attachments/assets/0aee5bdc-285f-4723-b396-0b4ca85f8824)
-
+![Screenshot 2024-11-07 151910](https://github.com/user-attachments/as
 
 ## practical 11 - consider a tuple t1 =(1,4,6,3,2,8,5,10,9,7,6). WAP to perform the following.
 
@@ -355,7 +338,6 @@ second_half = t1[half_value: ]
 
 print("second_half" ,second_half )   
 
-![Screenshot 2024-11-07 153337](https://github.com/user-attachments/assets/ec1f42c5-a0cd-45bf-8ddc-6f698f086fc3)
 
 ### (b.) Print another tuple whose values are even numbers in a given tuple.
 
@@ -365,7 +347,6 @@ even_number = tuple(filter(lambda x: x%2==0, t1))
 
 print("tuple with even number ", even_number )
 
-![Screenshot 2024-11-07 154105](https://github.com/user-attachments/assets/9047ffe3-d839-4ad8-a6d2-101b85dd11f8)
 
 
 ### (c.) Concatenate a tuple t2 =(12,15,11) with t1.
